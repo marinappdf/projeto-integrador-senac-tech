@@ -1,0 +1,242 @@
+body{
+	//background-image:url("../img/fundo.jpg");
+	//background-color: red;
+	//background-color: #00FFFF;
+}
+.p1{
+	text-align: center;
+	
+}
+.imgRedes{
+	margin-left: 5px;
+}
+.linkRedes{
+	text-decoration: none;
+}
+.hr1{
+	background-color: #ffa500;
+	height: 5px;
+	border-radius: 4px;
+	border: none;
+	
+}
+#hr2{
+	background-color: #ffa500;
+	height: 5px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 0;
+}
+#h1{
+	text-align: center;
+}
+#h2{
+	text-align: center;
+}
+#imgBanner{
+	width: 100%;
+	height: auto;
+	
+}
+.h2{
+	text-align: center;
+	font-family: arial black;
+	font-size: 26px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.pText{
+	text-align: center;
+	font-family: arial;
+	font-size: 14px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	line-height: 130%;
+}
+#imgBannerPsg{
+	width: 80%;
+	height: auto;
+	border-radius: 4px;
+}
+#h3{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	line-height: 130%;
+}
+#iframeYoutube{
+	width: 560px;
+	height: 315px;	
+}
+.pJustify{
+	text-align: justify;
+	font-family: arial;
+	font-size: 14px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	line-height: 130%;
+}
+#pDireitos{
+	text-align: center;
+	font-family: arial;
+	font-size: 14px;
+	margin-top: 2%;
+	padding-bottom: 3%;
+}
+/*Código página oprograma.html*/
+#imgAprendiz{
+	width: 19%;
+	height: auto;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+/*Código página inscrever.html*/
+#imgBannerInscricao{
+	width: 80%;
+	height: auto;
+	border-radius: 4px;
+}
+#iframeMaps{
+	width: 600px;
+	height: 450px;
+	border: 0;	 
+}
+/*Código página perguntas.html*/
+#imgBannerPerguntas{
+	width: 80%;
+	height: auto;
+	border-radius: 4px;
+}
+.hLeft{
+	text-align: left;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	line-height: 130%;
+}
+.liPerguntas{
+	
+	font-family: arial;
+	font-size: 14px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 130%;
+}
+.ulPerguntas{
+	list-style-type: square;
+}
+.olPerguntas{
+	list-style-type: lower-alpha;
+}
+#olPerguntasSub{
+	list-style-type: upper-roman;
+	margin-left: 2%;
+}
+/*
+Novos recursos de formatação, por conta do layout
+Mudança nas tags p do cabeçalho
+*/
+#plink{
+	text-align: right;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 10%;
+}
+#pCabecalhoMeio{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: arial black;
+	font-size: 24px;
+}
+/*
+Novos recursos de formatação, aula 18, por conta do layout
+Mudança nas tags hr no corpo
+*/
+.hr2{
+	background-color: #ffa500;
+	width: 70%;
+	height: 5px;
+	text-align: center;
+	text-align: center;
+	border-radius: 4px;
+	border: none;
+	
+}
+#hr3{
+	background-color: #0000CD;
+	height: 5px;
+	border-radius: 4px;
+	border: none;
+	margin-top: 4%;
+	
+}
+#hr4{
+	background-color: #0000CD;
+	height: 5px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 0;
+}
+/*Formatação da página consulta na tabela */
+.h3Td{
+	font-family: arial;
+	color: blue;
+}
+.imgCursos{
+	width: 300px;
+	height: auto;
+}
+/*Formatação do fale conosco */
+#formP{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.dados{
+	margin-bottom: 15px;
+}
+.dados label{
+	font-family: arial black;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #666;
+	display: block;
+	
+}
+
+@media all and (max-width: 750px){
+	#hr3{
+		
+		display: none;
+	}
+}
+@media all and (max-width: 600px){
+	#plink{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left:10%;
+	}
+	#iframeYoutube{
+	width: 100%;	
+	}
+}
+@media all and (max-width: 420px){
+	#iframeYoutube{
+	width: 100%;
+height: auto;	
+	}
+}
