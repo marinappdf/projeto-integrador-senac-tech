@@ -6,4 +6,5 @@ Talvez não tenham nada aqui, talvez eu faça um projeto.
 
 :D
 
-Vou adicionar essa linha para criar uma alteração no meu repositório.
+
+Mais uma edição para mostrar um conflito de versões.
