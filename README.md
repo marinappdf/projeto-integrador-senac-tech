@@ -1,2 +1,7 @@
-# projeto-integrador-senac-tech
-Esse projeto foi resultado do módulo D do curto de Técnico em Informática do Senac Tech.
+# Projeto Integrador SENAC TECH
+
+Esse repositório contém o resultado do módulo de prática integrada do Técnico em Informática do SENAC.
+Como professar, criei esse repositório para ensinar meus alunos a usarem o GIT.
+Talvez não tenham nada aqui, talvez eu faça um projeto.
+
+:D
